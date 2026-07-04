@@ -1,0 +1,7 @@
+@use "pkg:@fontsource-utils/scss" as fontsource;
+@use "pkg:@fontsource-variable/noto-sans-sc/scss" as notoSansSc;
+@use "pkg:@fontsource-variable/roboto-mono/scss" as robotoMono;
+
+@include fontsource.faces($metadata: robotoMono.$metadata, $display: block);
+
+@include fontsource.faces($metadata: notoSansSc.$metadata, $display: block);

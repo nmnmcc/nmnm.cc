@@ -1,2 +1,4 @@
 allowBuilds:
-  esbuild: true
+    # Sass includes this optional native watcher; Vite builds here do not need it.
+    "@parcel/watcher": false
+    esbuild: true

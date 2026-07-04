@@ -5,6 +5,5 @@
     font-family:
         "Roboto Mono Variable", "Roboto Mono", "Noto Sans SC Variable",
         "Noto Sans SC", monospace;
-    font-display: block;
     @apply box-border;
 }

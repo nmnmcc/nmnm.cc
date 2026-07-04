@@ -1,6 +1,5 @@
+import "./fonts.scss";
 import "./style.css";
-import "@fontsource-variable/roboto-mono";
-import "@fontsource-variable/noto-sans-sc";
 
 import { render } from "preact";
 import { LocationProvider, Router, Route } from "preact-iso";
