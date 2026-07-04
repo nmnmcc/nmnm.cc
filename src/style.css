@@ -3,7 +3,7 @@
 
 * {
     font-family:
-        "Roboto Mono", "Noto Sans SC", "Roboto Mono Variable",
-        "Noto Sans SC Variable", monospace;
+        "Roboto Mono Variable", "Roboto Mono", "Noto Sans SC Variable",
+        "Noto Sans SC", monospace;
     @apply box-border;
 }
